@@ -1,0 +1,5 @@
+#!/bin/bash
+# Connects to a server using a private key ~/.ssh/school with the user ubuntu
+# Only single-character flags are used and -l is avoided
+
+ssh -i ~/.ssh/school ubuntu@"$1"
